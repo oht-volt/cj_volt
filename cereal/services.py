@@ -20,7 +20,7 @@ service_list = {
   "controlsState": Service(8007, True, 100., 100),
   "features": Service(8010, True, 0.),
   "pandaState": Service(8011, True, 2., 1),
-  "radarState": Service(8012, True, 20., 5),
+  "radarState": Service(8012, True, 15., 5),
   "roadEncodeIdx": Service(8015, True, 20., 1),
   "liveTracks": Service(8016, True, 20.),
   "sendcan": Service(8017, True, 100.),
