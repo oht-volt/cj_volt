@@ -9,7 +9,7 @@ from selfdrive.controls.lib.radar_helpers import _LEAD_ACCEL_TAU
 from selfdrive.controls.lib.longitudinal_mpc import libmpc_py
 from selfdrive.controls.lib.drive_helpers import MPC_COST_LONG
 
-STOPPING_DISTANCE = 1.5
+STOPPING_DISTANCE = 2.0
 
 LOG_MPC = os.environ.get('LOG_MPC', False)
 
